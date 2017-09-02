@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.*;
 import java.lang.reflect.Method;
 public class PrimeNumberCheckerTest implements ITest{
-        String csvFile = "/Users/val/workspace/HW_35/src/test/java/core/35prime.csv";  //path to prime.csv 
+        String csvFile = "/Users/val/workspace/HW_35/src/test/java/core/primes.csv";  //path to primes.csv 
        //  String csvFile = System.getProperty("testcases");  // mvn site -Dtestcases="./input.csv"
        private String test_name = "";
        public String getTestName()        {return test_name;}
